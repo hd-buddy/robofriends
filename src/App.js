@@ -3,7 +3,7 @@ import Cardlist from "./CardList";
 import {robots} from "./robots";
 import SearchBox from './SearchBox'
 
-class App extends Component{
+class App extends Component  {
     constructor(){
         super()
         this.state={
