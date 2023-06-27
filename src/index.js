@@ -3,14 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import 'tachyons'
 // import Card from './Card'
-import Cardlist from './CardList'
+import App from './App'
 import reportWebVitals from './reportWebVitals';
-import { robots } from './robots';
+// import { robots } from './robots';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Cardlist robots={robots}/>
+    <App/>
   </React.StrictMode>
 );
 
