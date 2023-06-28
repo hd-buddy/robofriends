@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import 'tachyons'
 // import Card from './Card'
-import App from './App'
+import App from './container/App'
 import reportWebVitals from './reportWebVitals';
 // import { robots } from './robots';
 
